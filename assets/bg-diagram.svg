@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Closed-loop multisensory manipulation diagram</title>
+  <desc id="desc">A simple draw.io-style vector diagram showing sensing, representation, task, action, and feedback.</desc>
+  <rect width="900" height="620" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280"/>
+    </marker>
+    <style>
+      .box { fill:#f8fafc; stroke:#94a3b8; stroke-width:2; rx:10; ry:10; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 24px; fill:#111827; }
+      .small { font-size:20px; fill:#374151; }
+      .line { fill:none; stroke:#6b7280; stroke-width:3; marker-end:url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="box" x="40" y="240" width="180" height="90"/>
+  <text class="label" x="130" y="295" text-anchor="middle">Sensing</text>
+  <text class="small" x="130" y="322" text-anchor="middle">vision / touch / audio</text>
+
+  <rect class="box" x="300" y="150" width="300" height="120"/>
+  <text class="label" x="450" y="208" text-anchor="middle">Multisensory</text>
+  <text class="label" x="450" y="238" text-anchor="middle">Representation</text>
+
+  <rect class="box" x="300" y="360" width="300" height="110"/>
+  <text class="label" x="450" y="418" text-anchor="middle">Task / Policy /</text>
+  <text class="label" x="450" y="448" text-anchor="middle">Decision Making</text>
+
+  <rect class="box" x="690" y="240" width="170" height="90"/>
+  <text class="label" x="775" y="295" text-anchor="middle">Action</text>
+  <text class="small" x="775" y="322" text-anchor="middle">grasp / push / insert</text>
+
+  <path class="line" d="M220 285 L300 220"/>
+  <path class="line" d="M450 270 L450 360"/>
+  <path class="line" d="M600 220 L690 285"/>
+  <path class="line" d="M600 415 L710 330"/>
+  <path class="line" d="M775 240 C 780 150, 660 90, 520 90 C 340 90, 220 160, 180 240"/>
+
+  <text class="small" x="760" y="145" text-anchor="middle">closed loop feedback</text>
+</svg>
