@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2026-10-19T20:00:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="icra2027-closed-loop" name="Multisensory manipulation">
+    <mxGraphModel dx="1100" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="sensing" value="Sensing&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Vision / touch / audio&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#94a3b8;fontColor=#111827;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="230" width="190" height="100" as="geometry"/></mxCell>
+        <mxCell id="representation" value="Multisensory&lt;br&gt;Representation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#94a3b8;fontColor=#111827;fontSize=20;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="315" y="130" width="300" height="120" as="geometry"/></mxCell>
+        <mxCell id="policy" value="Task / Policy /&lt;br&gt;Decision Making" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#94a3b8;fontColor=#111827;fontSize=20;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="315" y="360" width="300" height="115" as="geometry"/></mxCell>
+        <mxCell id="action" value="Action&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Grasp / push / insert&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#94a3b8;fontColor=#111827;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="695" y="230" width="180" height="100" as="geometry"/></mxCell>
+        <mxCell id="edge1" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#6b7280;strokeWidth=2;exitX=1;exitY=0.35;entryX=0;entryY=0.7;" edge="1" parent="1" source="sensing" target="representation"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge2" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#6b7280;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="representation" target="policy"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge3" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#6b7280;strokeWidth=2;exitX=1;exitY=0.7;entryX=0;entryY=0.35;" edge="1" parent="1" source="representation" target="action"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge4" value="" style="endArrow=block;html=1;rounded=0;strokeColor=#6b7280;strokeWidth=2;exitX=1;exitY=0.5;entryX=0.4;entryY=1;" edge="1" parent="1" source="policy" target="action"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="feedback" value="Closed-loop feedback" style="endArrow=block;html=1;rounded=1;strokeColor=#6b7280;strokeWidth=2;fontSize=14;fontColor=#374151;exitX=0.5;exitY=0;entryX=0.8;entryY=0;" edge="1" parent="1" source="action" target="sensing"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="785" y="75"/><mxPoint x="130" y="75"/></Array></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
