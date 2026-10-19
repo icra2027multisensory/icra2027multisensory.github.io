@@ -15,13 +15,15 @@ An accessible, responsive, dependency-free static website and draft Call for Pap
 
 Run `python3 -m http.server 8000` in this folder, then open `http://localhost:8000`.
 
-## Publish through GitHub Pages
+## Dedicated GitHub Pages site
 
-1. Create a **new, separate** public GitHub repository, e.g. `icra2027-multisensory-workshop` (do not place this under an unrelated research repository).
-2. Upload everything in this folder to its `main` branch, preserving the directory structure.
-3. Go to repository **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, **main**, **/(root)**, then save.
-4. Open the URL GitHub shows. HTTPS may take some time to become available.
-5. Once officially accepted and approved for public advertising, update all draft text and remove the `noindex, nofollow` tags from **both** HTML pages so search engines can find it.
+**Repository:** https://github.com/icra2027multisensory/icra2027multisensory.github.io
+
+**Expected URL after GitHub Pages is enabled:** https://icra2027multisensory.github.io/
+
+The website files are already on the `main` branch. To publish, open repository **Settings → Pages → Build and deployment**, select **Deploy from a branch**, choose **main** and **/(root)**, then save. Verify the published website in GitHub Pages settings. If the organization restricts Pages creation, its owner must permit public Pages sites in organization settings.
+
+The website is a *draft*, not an announcement of workshop acceptance. After the conference accepts the workshop and the organizing team approves the final information, update provisional text and remove `noindex, nofollow` from both HTML pages to permit search indexing.
 
 The project uses plain HTML/CSS/JS and requires no npm install, build, framework, hosting plan, or API key.
 
