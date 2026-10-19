@@ -72,5 +72,5 @@ Official dates/source: https://2027.ieee-icra.org/contribute/call-for-workshop-a
 - Each navigation item opens its own HTML page, with the current page highlighted.
 - Skip-to-content, always-visible keyboard-operable navigation, visible focus, semantic sections and headings, reduced-motion support.
 - No external fonts, trackers, cookies, embeds, or required JavaScript for content.
-- The header identifies the workshop as proposed, and the CFP states that submissions are not open yet.
-- Speaker and contact sections are omitted until confirmed information is available. The full organizer roster, assigned workshop session, submission platform, paper dates, formats, review criteria, and archival policy still need confirmation.
+- All workshop content is a working draft for substantial revision. The header identifies the workshop as proposed, and the CFP states that submissions are not open yet.
+- Speakers, organizers, contact details, the assigned workshop session, submission platform, paper dates, formats, review criteria, and publication policy use explicit `TBD` placeholders. Official ICRA conference dates remain listed separately.
