@@ -4,11 +4,17 @@ An accessible, responsive, dependency-free static website and draft Call for Pap
 
 ## Included files
 
-- `index.html` — homepage: scientific framing, research topics, tentative program, speaker placeholders, organizing team.
+- `index.html` — workshop overview, dates summary, and links to the dedicated pages.
 - `cfp.html` — **draft only** CFP, topics, contribution types, and pending submission requirements.
+- `topics.html` — research topics.
+- `program.html` — tentative half-day program.
+- `organizers.html` — organizing team.
+- `dates.html` — workshop proposal and pending author submission dates.
 - `styles.css` — responsive design.
-- `script.js` — accessible mobile navigation.
+- `script.js` — legacy navigation helper; the current navigation works without JavaScript.
 - `assets/favicon.svg` — abstract loop mark.
+- `assets/multisensory-art.svg` — hand-drawn vector header artwork with editable robot, sensing, and abstract background elements.
+- `assets/bg-diagram.svg` — original closed-loop diagram; editable source in `assets/bg-diagram.drawio`.
 - `.nojekyll` — GitHub Pages compatibility.
 
 ## Preview locally
@@ -23,7 +29,7 @@ Run `python3 -m http.server 8000` in this folder, then open `http://localhost:80
 
 The website files are already on the `main` branch. To publish, open repository **Settings → Pages → Build and deployment**, select **Deploy from a branch**, choose **main** and **/(root)**, then save. Verify the published website in GitHub Pages settings. If the organization restricts Pages creation, its owner must permit public Pages sites in organization settings.
 
-The website is a *draft*, not an announcement of workshop acceptance. After the conference accepts the workshop and the organizing team approves the final information, update provisional text and remove `noindex, nofollow` from both HTML pages to permit search indexing.
+The website is a *draft*, not an announcement of workshop acceptance. After the conference accepts the workshop and the organizing team approves the final information, update provisional text and review search-indexing settings across all HTML pages.
 
 The project uses plain HTML/CSS/JS and requires no npm install, build, framework, hosting plan, or API key.
 
@@ -35,11 +41,11 @@ The project uses plain HTML/CSS/JS and requires no npm install, build, framework
 - [ ] Approve the merged abstract/topic descriptions with Hanyi and Jian.
 - [ ] Finalize speaker names, institutions, talk titles **and acceptance** before replacing anonymous placeholders.
 - [ ] Finalize organizing team roster and assigned roles (workshop co-chairs, faculty advisors, student organizers); add a separate PC section if appropriate.
-- [ ] Set the final program format and timetable; the 240-minute allocation on the homepage is *illustrative*.
+- [ ] Set the final program format and timetable; the schedule on `program.html` is *tentative*.
 - [ ] Decide which contribution types to accept, short/full paper lengths, whether recently published papers are welcome, archival or non-archival proceedings policy, reviewer criteria, and publication/hosting policies.
 - [ ] Confirm submission platform, paper deadline, acceptance notification, camera-ready deadline (if applicable), and exact times/timezones.
 - [ ] Approve a public organizer contact email or contact form; **do not expose private addresses** without permission.
-- [ ] Replace the CFP warning and noindex only once author submissions can be received and team approves release.
+- [ ] Publish the final CFP and submission link once author submissions can be received and the team approves release.
 - [ ] Review all terms and logos if incorporating official IEEE/ICRA brand assets in a later revision (none are copied in this draft).
 
 ## Evidence and caveats
@@ -61,7 +67,10 @@ Official dates/source: https://2027.ieee-icra.org/contribute/call-for-workshop-a
 
 ## Design and accessibility
 
-- Responsive single-column layouts on phones; four-column grids on desktops.
-- Skip-to-content, keyboard-operable nav, visible focus, semantic sections and headings, reduced-motion support.
+- Simple conference layout inspired by [CV4DC 2026](https://cv4dc.github.io/2026/): an illustrated SVG banner, dark navigation, and a white content area with a dates sidebar.
+- Responsive single-column layouts on phones; main content and a sidebar on desktops.
+- Each navigation item opens its own HTML page, with the current page highlighted.
+- Skip-to-content, always-visible keyboard-operable navigation, visible focus, semantic sections and headings, reduced-motion support.
 - No external fonts, trackers, cookies, embeds, or required JavaScript for content.
-- Provisional-status text is deliberately prominent, including on the CFP page.
+- The header identifies the workshop as proposed, and the CFP states that submissions are not open yet.
+- Speaker and contact sections are omitted until confirmed information is available. The full organizer roster, assigned workshop session, submission platform, paper dates, formats, review criteria, and archival policy still need confirmation.
