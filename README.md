@@ -53,9 +53,9 @@ The project uses plain HTML/CSS/JS and requires no package installation, build s
 
 ## Official logo sources
 
-The banner embeds the original, unmodified logo files from the [ICRA 2027 brand identity page](https://2027.ieee-icra.org/about/brand-identity-and-guidelines/), scaled with their original proportions on a white background:
+The banner uses the official ICRA and Seoul 2027 artwork with transparent backgrounds, scaled with their original proportions:
 
-- `assets/icra-logo.jpg` — [official ICRA logo](https://2027.ieee-icra.org/wp-content/uploads/sites/4/2026/05/ICRA-LOGO.jpg).
-- `assets/icra2027-seoul.png` — [official Seoul 2027 logo](https://2027.ieee-icra.org/wp-content/uploads/sites/4/2026/06/ICRA2027_TitleMark_wide_PNG.png).
+- `assets/icra-logo.svg` — original vector paths extracted from page 3 of the [official ICRA brand guidelines](https://2026.ieee-icra.org/wp-content/uploads/2024/11/23-TA-11-019-FExD-ICRA-Brand-Guidelines-1-RGB.pdf). The background is transparent; the logo geometry is preserved.
+- `assets/icra2027-seoul.png` — original transparent [official Seoul 2027 logo](https://2027.ieee-icra.org/wp-content/uploads/sites/4/2026/06/ICRA2027_TitleMark_wide_PNG.png).
 
 The remaining banner artwork is native SVG. No generated bitmap artwork is used.
