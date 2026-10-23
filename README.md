@@ -7,7 +7,7 @@ An accessible, responsive, dependency-free website for the proposed ICRA 2027 ha
 - `index.html` — workshop introduction.
 - `cfp.html` — topics of interest, submission guidelines, and important dates.
 - `dates.html` — planned submission timeline.
-- `organizers.html` — organizer names, affiliations, and contact details.
+- `organizers.html` — organizer portraits, public profile links, affiliations, and contact details.
 - `keynotes.html` — speaker information, pending confirmation in the proposal.
 - `topics.html` and `program.html` — redirects for previously shared URLs.
 - `styles.css` — responsive design.
@@ -59,3 +59,9 @@ The banner uses the official ICRA and Seoul 2027 artwork with transparent backgr
 - `assets/icra2027-seoul.png` — original transparent [official Seoul 2027 logo](https://2027.ieee-icra.org/wp-content/uploads/sites/4/2026/06/ICRA2027_TitleMark_wide_PNG.png).
 
 The remaining banner artwork is native SVG. No generated bitmap artwork is used.
+
+## Organizer photographs
+
+`assets/organizers/` contains 12 public profile photographs, displayed with circular CSS crops like CV4DC. Each portrait and name links to the person's public profile. Names, affiliations, and email addresses retain the proposal roster.
+
+`assets/organizers/sources.json` records every source page, image URL, identity-verification page where needed, retrieval date, source hash, and display crop. Sources include personal and institutional profiles, Google Scholar portraits linked by those profiles, CV4DC's organizer page, and Hanyi Zhang's public LinkedIn post supplied by the user. Photos are resized and encoded as WebP for page loading; no photos are generated or retouched.

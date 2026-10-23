@@ -1,0 +1,249 @@
+[
+  {
+    "slug": "jian-liu",
+    "name": "Jian Liu",
+    "profile_url": "https://cnjliu.github.io/",
+    "source_page": "https://cnjliu.github.io/",
+    "image_url": "https://cnjliu.github.io/images/android-chrome-512x512.png",
+    "file": "assets/organizers/jian-liu.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "007369a290377750330d0dfac618982b326b4acefe30cbb4fc13180148edb717",
+    "original_dimensions": [
+      512,
+      512
+    ],
+    "dimensions": [
+      512,
+      512
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "yu-feng",
+    "name": "Yu Feng",
+    "profile_url": "https://sites.google.com/view/yufengsteve/",
+    "source_page": "https://scholar.google.com/citations?user=smujSeoAAAAJ&hl=en",
+    "identity_verified_at": "https://sites.google.com/view/yufengsteve/",
+    "image_url": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=smujSeoAAAAJ",
+    "file": "assets/organizers/yu-feng.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "cb37d4cd0f616b09fad41bd45ad00a998fd2d5d9ca7c415f5a1c396bf81d9249",
+    "original_dimensions": [
+      182,
+      256
+    ],
+    "dimensions": [
+      182,
+      256
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "quan-xiong",
+    "name": "Quan Xiong",
+    "profile_url": "https://sites.google.com/view/xiongquanlab/team",
+    "source_page": "https://scholar.google.com/citations?user=7imknscAAAAJ&hl=en",
+    "identity_verified_at": "https://sites.google.com/view/xiongquanlab/team",
+    "image_url": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=7imknscAAAAJ",
+    "file": "assets/organizers/quan-xiong.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "fa2a18d3b96eb667e60552d0e79eda7d36296016be2e88b485674d0f4eb5afd8",
+    "original_dimensions": [
+      256,
+      255
+    ],
+    "dimensions": [
+      256,
+      255
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "xiang-li",
+    "name": "Xiang Li",
+    "profile_url": "https://sites.google.com/view/homepageoflixiang/home",
+    "source_page": "https://scholar.google.com.sg/citations?hl=zh-CN&user=6EIX-JQAAAAJ",
+    "identity_verified_at": "https://sites.google.com/view/homepageoflixiang/home",
+    "image_url": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=6EIX-JQAAAAJ",
+    "file": "assets/organizers/xiang-li.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "d6bb6bab1c713aa4090d7938bce0bc37b72e45e3b1e6d35e0604af52ec6fc1cc",
+    "original_dimensions": [
+      186,
+      256
+    ],
+    "dimensions": [
+      186,
+      256
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "ajmal-mian",
+    "name": "Ajmal Saeed Mian",
+    "profile_url": "https://research-repository.uwa.edu.au/en/persons/ajmal-mian/",
+    "source_page": "https://research-repository.uwa.edu.au/en/persons/ajmal-mian/",
+    "image_url": "https://research-repository.uwa.edu.au/files-asset/92600669/me_bw_small.png?w=160&f=jpg",
+    "file": "assets/organizers/ajmal-mian.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "e56afd03fd44126c7f8d3cdc3c23109ab52a3418bd85d1a563de945d5afbf07f",
+    "original_dimensions": [
+      160,
+      192
+    ],
+    "dimensions": [
+      160,
+      192
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 50%"
+  },
+  {
+    "slug": "wei-sun",
+    "name": "Wei Sun",
+    "profile_url": "https://robotics.hnu.edu.cn/info/1176/2972.htm",
+    "source_page": "https://robotics.hnu.edu.cn/info/1176/2972.htm",
+    "image_url": "https://robotics.hnu.edu.cn/__local/F/42/6D/ACCE0088022A68FD1D2546C6431_79D07F6B_5DF3E.png",
+    "file": "assets/organizers/wei-sun.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "03f033e7b4df08506fae3ad124e754710d0f6270eb2f89f154e70578ce41f389",
+    "original_dimensions": [
+      268,
+      358
+    ],
+    "dimensions": [
+      268,
+      358
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "wen-jung-li",
+    "name": "Wen Jung Li",
+    "profile_url": "https://scholars.cityu.edu.hk/en/persons/wenjli/",
+    "source_page": "https://scholars.cityu.edu.hk/en/persons/wenjli/",
+    "image_url": "https://scholars.cityu.edu.hk/files-asset/305381650/Prof_Wen-Jung-LI.jpg?w=160&f=jpg",
+    "file": "assets/organizers/wen-jung-li.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "9229aeb39bb7e63771b5b1c6b72bef0048e6fb47dae1eec9615eb7a4415473bd",
+    "original_dimensions": [
+      160,
+      192
+    ],
+    "dimensions": [
+      160,
+      192
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 50%"
+  },
+  {
+    "slug": "jianshu-zhou",
+    "name": "Jianshu Zhou",
+    "profile_url": "https://sites.google.com/view/dr-jianshu-zhou-nus/bio",
+    "source_page": "https://scholar.google.com/citations?user=HVofSgQAAAAJ&hl",
+    "identity_verified_at": "https://sites.google.com/view/dr-jianshu-zhou-nus/bio",
+    "image_url": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=HVofSgQAAAAJ",
+    "file": "assets/organizers/jianshu-zhou.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "0afc7f5754bed3aea224c97388e670d217cd8f11138b169ce1504d5981671a8d",
+    "original_dimensions": [
+      159,
+      251
+    ],
+    "dimensions": [
+      159,
+      251
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "ngan-le",
+    "name": "Ngan Le",
+    "profile_url": "https://uark-aicv.github.io/",
+    "source_page": "https://cv4dc.github.io/2026/people/",
+    "image_url": "https://cv4dc.github.io/img/2026/people/le.jpg",
+    "file": "assets/organizers/ngan-le.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "7b0ea5b54c7ab9a83779ce2815099c6f0aade3754017ec20f9aa9e94be48a854",
+    "original_dimensions": [
+      273,
+      410
+    ],
+    "dimensions": [
+      273,
+      410
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "anh-nguyen",
+    "name": "Anh Nguyen",
+    "profile_url": "https://cgi.csc.liv.ac.uk/~anguyen/",
+    "source_page": "https://cgi.csc.liv.ac.uk/~anguyen/",
+    "image_url": "https://cgi.csc.liv.ac.uk/~anguyen/assets/images/anh_nguyen_pic.png",
+    "file": "assets/organizers/anh-nguyen.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "d4e7faa72c32cec17caeed8db774322430e2046e57463f5e585d5a439cb58d63",
+    "original_dimensions": [
+      949,
+      1082
+    ],
+    "dimensions": [
+      449,
+      512
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "hanyi-zhang",
+    "name": "Hanyi Zhang",
+    "profile_url": "https://www.linkedin.com/in/hanyi-zhang-7104ab299/",
+    "source_page": "https://www.linkedin.com/posts/hanyi-zhang-7104ab299_eccv2026-computervision-robotics-ugcPost-7503439589093597184-Avjw/",
+    "identity_verified_at": "https://airvlab.github.io/G-VLA/",
+    "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQEePSmJaVMaCQ/profile-displayphoto-scale_400_400/B4EZd36DQAHsAk-/0/1750063399498?e=2147483647&v=beta&t=J_N7G4DNjzZxNYz_UBylV1ugfEZln3wDnJvcpNPip04",
+    "file": "assets/organizers/hanyi-zhang.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "d8a548b79d5d8579f2a9862328567e76f4dc1af8b1ed340fc75d8fae77ed0bb6",
+    "original_dimensions": [
+      400,
+      400
+    ],
+    "dimensions": [
+      400,
+      400
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%",
+    "display_scale": 1.25,
+    "transform_origin": "40% 35%"
+  },
+  {
+    "slug": "trong-thang-pham",
+    "name": "Trong Thang Pham",
+    "profile_url": "https://phamtrongthang123.github.io/",
+    "source_page": "https://phamtrongthang123.github.io/",
+    "image_url": "https://phamtrongthang123.github.io/images/avatar.png",
+    "file": "assets/organizers/trong-thang-pham.webp",
+    "retrieved": "2026-10-22",
+    "original_sha256": "810f2ee4e259f71c8b215297924104370cd055e809b592e6629467d8e8ffb8cd",
+    "original_dimensions": [
+      1004,
+      1319
+    ],
+    "dimensions": [
+      390,
+      512
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  }
+]
