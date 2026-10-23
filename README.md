@@ -64,7 +64,7 @@ The remaining banner artwork is native SVG. No generated bitmap artwork is used.
 
 `assets/organizers/` contains 16 public profile photographs, displayed with circular CSS crops like CV4DC. Each portrait and name links to the person's public profile. Tung D. Ta, Jiawei Ma, Khoa Vo, and Baoru Huang are included as organizers at the team's request. The remaining seven members of the proposal's advisory board appear under Advisory Committee. Only Jian Liu's key contact email is published on the current pages.
 
-Names and affiliations follow the proposal except for Khoa Vo, whose current University of Tennessee–Oak Ridge Innovation Institute (UT–ORII) affiliation is confirmed by the user and his [institutional profile](https://utorii.com/khoa-vo/). Tung's proposal affiliation is retained pending the user's check.
+Names and affiliations follow the proposal except for Khoa Vo at the University of Tennessee–Oak Ridge Innovation Institute (UT–ORII) and Tung D. Ta at Keio University, Japan. Both current affiliations are confirmed by the user and their institutional profiles ([Khoa](https://utorii.com/khoa-vo/), [Tung](https://slg.sfc.keio.ac.jp/members/)).
 
 `assets/organizers/sources.json` records every source page, image URL, identity-verification page where needed, retrieval date, source hash, and display crop. Sources include personal and institutional profiles, Google Scholar portraits linked by those profiles, CV4DC's organizer page, and Hanyi Zhang's public LinkedIn post supplied by the user. Photos are resized and encoded as WebP for page loading; no photos are generated or retouched.
 
