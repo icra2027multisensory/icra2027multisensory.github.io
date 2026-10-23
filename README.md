@@ -4,12 +4,12 @@ An accessible, responsive, dependency-free website for the proposed ICRA 2027 ha
 
 ## Pages
 
-- `index.html` — workshop overview, proposed format, dates, and primary contact.
-- `cfp.html` — contribution formats, review process, timeline, and publication plan.
-- `topics.html` — scientific scope, participation and publicity plans, related events, and outcomes.
-- `program.html` — tentative schedule, invited talk themes, poster/demo capacity, and room requests.
-- `organizers.html` — 12 organizers, 11 advisory-board members, responsibilities, and prior experience.
-- `dates.html` — official ICRA dates and proposed workshop-specific timing.
+- `index.html` — proposal cover details and Sections 1.1–1.3, with references.
+- `cfp.html` — Sections 3.4 and 5.2.
+- `topics.html` — Sections 1.4–1.5, 4, and 5.1.
+- `program.html` — Sections 3.1–3.3.
+- `organizers.html` — Section 2.
+- `dates.html` — Section 6, Organizer Requests.
 - `styles.css` — responsive design.
 - `script.js` — legacy navigation helper; the current pages work without JavaScript.
 - `assets/multisensory-art.svg` — editable vector banner artwork.
@@ -25,11 +25,7 @@ The site is published from the `main` branch using GitHub Pages.
 
 ## Proposal status
 
-The site follows the current six-page proposal document, `ICRA_2027_Overleaf (2).pdf`. The proposal selects a workshop and half-day duration. It proposes an in-person morning session from 08:30 to 12:30. The assigned workshop day remains pending between May 24 and May 28, 2027.
-
-The invited-speaker section identifies four talk themes but still needs speaker names, affiliations, and final topics. The contribution calendar dates and submission link, along with the archival publication route, short-contribution eligibility, copyright/license terms, and camera-ready schedule, also remain to be confirmed. The site identifies the workshop as proposed and does not announce acceptance.
-
-Conference-wide dates are from the [ICRA 2027 Call for Workshops and Tutorials](https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/): full proposal deadline November 2, 2026; acceptance notification January 31, 2027; workshop days May 24 or 28, 2027.
+The website content follows the public-facing sections of `ICRA_2027_Overleaf (2).pdf` verbatim. The proposal's speaker details are marked “TO FILL.” Its publication route, eligibility of short contributions, copyright/license, and camera-ready timetable must be confirmed before the call is issued.
 
 ## Before publishing the final contribution call
 
@@ -48,7 +44,7 @@ The project uses plain HTML/CSS/JS and requires no package installation, build s
 
 ## Design and accessibility
 
-- Simple conference layout inspired by [CV4DC 2026](https://cv4dc.github.io/2026/): an illustrated SVG banner, dark navigation, and a white content area with a dates sidebar.
+- Simple conference layout inspired by [CV4DC 2026](https://cv4dc.github.io/2026/): an illustrated SVG banner, dark navigation, and a white content area with a proposal-section sidebar.
 - Responsive single-column layouts on phones and a main column with sidebar on desktop.
 - Each navigation item opens its own HTML page, with the current page highlighted.
 - Skip-to-content link, keyboard-operable navigation, visible focus, semantic sections and headings, and reduced-motion support.
