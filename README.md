@@ -4,12 +4,12 @@ An accessible, responsive, dependency-free website for the proposed ICRA 2027 ha
 
 ## Pages
 
-- `index.html` — proposal cover details and Sections 1.1–1.3, with references.
-- `cfp.html` — Sections 3.4 and 5.2.
-- `topics.html` — Sections 1.4–1.5, 4, and 5.1.
-- `program.html` — Sections 3.1–3.3.
-- `organizers.html` — Section 2.
-- `dates.html` — Section 6, Organizer Requests.
+- `index.html` — workshop overview and references.
+- `cfp.html` — call for contributions and dissemination information.
+- `topics.html` — workshop topics, participant engagement, and related events.
+- `program.html` — tentative program and speaker information.
+- `organizers.html` — organizing team and responsibilities.
+- `dates.html` — planned submission timeline and workshop logistics.
 - `styles.css` — responsive design.
 - `script.js` — legacy navigation helper; the current pages work without JavaScript.
 - `assets/multisensory-art.svg` — editable vector banner artwork.
@@ -25,7 +25,7 @@ The site is published from the `main` branch using GitHub Pages.
 
 ## Proposal status
 
-The website content follows the public-facing sections of `ICRA_2027_Overleaf (2).pdf` verbatim. The proposal's speaker details are marked “TO FILL.” Its publication route, eligibility of short contributions, copyright/license, and camera-ready timetable must be confirmed before the call is issued.
+The website is organized around visitor-facing pages using the public-facing material in `ICRA_2027_Overleaf (2).pdf`. Proposal form labels and internal section references are adapted for the site. Speaker names, affiliations, and topics remain to be confirmed. The publication route, eligibility of short contributions, copyright/license, and camera-ready timetable must be confirmed before the call is issued.
 
 ## Before publishing the final contribution call
 
@@ -44,8 +44,9 @@ The project uses plain HTML/CSS/JS and requires no package installation, build s
 
 ## Design and accessibility
 
-- Simple conference layout inspired by [CV4DC 2026](https://cv4dc.github.io/2026/): an illustrated SVG banner, dark navigation, and a white content area with a proposal-section sidebar.
-- Responsive single-column layouts on phones and a main column with sidebar on desktop.
-- Each navigation item opens its own HTML page, with the current page highlighted.
-- Skip-to-content link, keyboard-operable navigation, visible focus, semantic sections and headings, and reduced-motion support.
+- Simple conference layout inspired by [CV4DC 2026](https://cv4dc.github.io/2026/): an illustrated SVG banner, light page tabs, and a single white reading column.
+- Single-column reading flow on desktop and phones.
+- A short workshop introduction precedes a row of page tabs; each tab opens its own HTML page, with the current page highlighted.
+- Proposal section numbering is removed from headings; site links connect related material across pages.
+- Skip-to-content link, keyboard-operable navigation, visible focus, semantic headings, and reduced-motion support.
 - No external fonts, trackers, cookies, embeds, or JavaScript requirement for content.
