@@ -7,7 +7,7 @@ An accessible, responsive, dependency-free website for the proposed ICRA 2027 ha
 - `index.html` — workshop introduction.
 - `cfp.html` — topics of interest, submission guidelines, and important dates.
 - `dates.html` — planned submission timeline.
-- `organizers.html` — organizer portraits, public profile links, affiliations, the advisory committee, and the key contact.
+- `organizers.html` — organizer portraits, public profile links, affiliations, the program committee, and the key contact.
 - `keynotes.html` — speaker information, pending confirmation in the proposal.
 - `topics.html` and `program.html` — redirects for previously shared URLs.
 - `styles.css` — editable source for the responsive design. Pages load a versioned copy from `assets/` to prevent stale cached styles.
@@ -62,7 +62,7 @@ The remaining banner artwork is native SVG. No generated bitmap artwork is used.
 
 ## Organizer photographs
 
-`assets/organizers/` contains 16 public profile photographs, displayed with circular CSS crops like CV4DC. Each portrait and name links to the person's public profile. Tung D. Ta, Jiawei Ma, Khoa Vo, and Baoru Huang are included as organizers at the team's request. The remaining seven members of the proposal's advisory board appear under Advisory Committee. Only Jian Liu's key contact email is published on the current pages.
+`assets/organizers/` contains 16 public profile photographs, displayed with circular CSS crops like CV4DC. Each portrait and name links to the person's public profile. Tung D. Ta, Jiawei Ma, Khoa Vo, and Baoru Huang are included as organizers at the team's request. The remaining seven members of the original team appear under Program Committee. Only Jian Liu's key contact email is published on the current pages.
 
 Names and affiliations follow the proposal except for Khoa Vo at the University of Tennessee–Oak Ridge Innovation Institute (UT–ORII) and Tung D. Ta at Keio University, Japan. Both current affiliations are confirmed by the user and their institutional profiles ([Khoa](https://utorii.com/khoa-vo/), [Tung](https://slg.sfc.keio.ac.jp/members/)).
 
