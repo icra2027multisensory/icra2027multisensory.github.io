@@ -1,15 +1,15 @@
 # ICRA 2027 Workshop Website — Draft v0.1
 
-An accessible, responsive, dependency-free static website and draft Call for Papers for the **proposed** merged ICRA 2027 half-day workshop.
+An accessible, responsive, dependency-free website for an ICRA 2027 half-day workshop proposal. The uploaded proposal is an unfilled template, so its unconfirmed fields remain TBD on the site.
 
 ## Included files
 
-- `index.html` — workshop overview, dates summary, and links to the dedicated pages.
-- `cfp.html` — **draft only** CFP, topics, contribution types, and pending submission requirements.
-- `topics.html` — research topics.
-- `program.html` — tentative half-day program.
-- `organizers.html` — organizing team.
-- `dates.html` — workshop proposal and pending author submission dates.
+- `index.html` — proposal summary; title, primary contact, and keywords are TBD.
+- `cfp.html` — Call for Papers; scope and submission details are TBD.
+- `topics.html` — proposal topic, scope, engagement, and prior-event fields are TBD.
+- `program.html` — half-day program, format, and organizer-request fields are TBD.
+- `organizers.html` — organizer roles and primary contact are TBD.
+- `dates.html` — official conference dates and TBD workshop-specific dates.
 - `styles.css` — responsive design.
 - `script.js` — legacy navigation helper; the current navigation works without JavaScript.
 - `assets/favicon.svg` — abstract loop mark.
@@ -35,35 +35,29 @@ The project uses plain HTML/CSS/JS and requires no npm install, build, framework
 
 ## REQUIRED APPROVALS BEFORE ANNOUNCEMENT
 
-- [ ] Choose the **final title**; currently an explicitly labeled working title.
-- [ ] Confirm the workshop is **accepted**, and update status/banner language only after the conference decision.
-- [ ] Confirm which day (May 24 **or** May 28) and actual half-day time slot; do not imply a specific room.
-- [ ] Approve the merged abstract/topic descriptions with Hanyi and Jian.
-- [ ] Finalize speaker names, institutions, talk titles **and acceptance** before replacing anonymous placeholders.
-- [ ] Finalize organizing team roster and assigned roles (workshop co-chairs, faculty advisors, student organizers); add a separate PC section if appropriate.
-- [ ] Set the final program format and timetable; the schedule on `program.html` is *tentative*.
-- [ ] Decide which contribution types to accept, short/full paper lengths, whether recently published papers are welcome, archival or non-archival proceedings policy, reviewer criteria, and publication/hosting policies.
-- [ ] Confirm submission platform, paper deadline, acceptance notification, camera-ready deadline (if applicable), and exact times/timezones.
-- [ ] Approve a public organizer contact email or contact form; **do not expose private addresses** without permission.
-- [ ] Publish the final CFP and submission link once author submissions can be received and the team approves release.
+- [ ] Set the proposal title (currently TBD).
+- [ ] Add the response to pre-proposal feedback, if applicable.
+- [ ] Add proposal keywords.
+- [ ] Update workshop acceptance status only after the conference decision.
+- [ ] Add the assigned workshop date and half-day time slot.
+- [ ] Complete the scope, relevance, scientific questions, outcomes, and distinction from related workshops.
+- [ ] Confirm invited speaker names, affiliations, and talk topics.
+- [ ] Complete the co-chair, faculty-advisor, and student-organizer roster.
+- [ ] Complete the tentative schedule and format, poster capacity, demonstration plans, and contribution-selection process.
+- [ ] Describe audience engagement, inclusive participation, publicity, and any RAS Technical Committee collaboration.
+- [ ] Provide previous-event venue, year, attendance, URL, and rationale, or state that this is a new workshop; add dissemination plans and other review information.
+- [ ] Complete room, equipment, and remote/hybrid requests.
+- [ ] Set contribution types, paper lengths, review criteria, and publication policy.
+- [ ] Set the submission platform and all workshop-specific deadlines.
+- [ ] Add the confirmed primary contact and public contact details.
+- [ ] Complete the proposal fields and Call for Papers before inviting submissions.
 - [ ] Review all terms and logos if incorporating official IEEE/ICRA brand assets in a later revision (none are copied in this draft).
 
-## Evidence and caveats
+## Source and proposal status
 
-Based on the two organizer-provided pre-proposals:
+The uploaded PDF is the ICRA 2027 proposal template, not a completed proposal. It selects “Workshop” and “Half Day” and leaves the title, primary contact, keywords, scope, organizers, and program sections blank. Those fields are marked TBD on the website.
 
-- Proposal #95: *Robotic Manipulation Beyond Vision and Language: Learning to See, Hear, Smell, Feel, and Act like Humans*; proposes a half-day workshop with invited talks, spotlights, posters/demos, non-archival recent-work option, and early-career engagement.
-- Proposal #3: *Closing the Loop: Task-Driven Multimodal Sensing, Perception, and Manipulation for Robotics*; proposes a half-day format with three talks, spotlights, poster/demos, panel, and explicit closed-loop perception/uncertainty framing.
-
-The site paraphrases their compatible research directions; **the scientific merger text is not an officially approved abstract**. The proposed speaker names listed in one pre-proposal are **not** shown because their participation is not confirmed.
-
-Official dates/source: https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/
-- Full proposal due **November 2, 2026** via PaperPlaza.
-- Workshop decisions announced **January 31, 2027**.
-- Workshops/tutorials planned for **May 24 or May 28, 2027**.
-- ICRA 2027 is in Seoul, South Korea.
-
-**Do not confuse the November 2 deadline to submit the workshop proposal with a deadline for workshop *papers*.** No paper deadline has yet been set here.
+The [ICRA 2027 Call for Workshops and Tutorials](https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/) supplies the conference-wide proposal and event dates. The workshop’s assigned day, time, and paper deadlines are TBD.
 
 ## Design and accessibility
 
@@ -72,5 +66,5 @@ Official dates/source: https://2027.ieee-icra.org/contribute/call-for-workshop-a
 - Each navigation item opens its own HTML page, with the current page highlighted.
 - Skip-to-content, always-visible keyboard-operable navigation, visible focus, semantic sections and headings, reduced-motion support.
 - No external fonts, trackers, cookies, embeds, or required JavaScript for content.
-- All workshop content is a working draft for substantial revision. The header identifies the workshop as proposed, and the CFP states that submissions are not open yet.
-- Speakers, organizers, contact details, the assigned workshop session, submission platform, paper dates, formats, review criteria, and publication policy use explicit `TBD` placeholders. Official ICRA conference dates remain listed separately.
+- The uploaded proposal is an unfilled template. The website marks unconfirmed proposal fields as TBD.
+- Official conference dates are separated from workshop-specific dates, which remain TBD.
