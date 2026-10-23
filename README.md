@@ -4,16 +4,15 @@ An accessible, responsive, dependency-free website for the proposed ICRA 2027 ha
 
 ## Pages
 
-- `index.html` — workshop overview and references.
-- `cfp.html` — call for contributions and dissemination information.
-- `topics.html` — workshop topics, participant engagement, and related events.
-- `program.html` — tentative program and speaker information.
-- `organizers.html` — organizing team and responsibilities.
-- `dates.html` — planned submission timeline and workshop logistics.
+- `index.html` — workshop introduction.
+- `cfp.html` — topics of interest, submission guidelines, and important dates.
+- `dates.html` — planned submission timeline.
+- `organizers.html` — organizer names, affiliations, and contact details.
+- `keynotes.html` — speaker information, pending confirmation in the proposal.
+- `topics.html` and `program.html` — redirects for previously shared URLs.
 - `styles.css` — responsive design.
-- `script.js` — legacy navigation helper; the current pages work without JavaScript.
-- `assets/multisensory-art.svg` — editable vector banner artwork.
-- `assets/bg-diagram.svg` — closed-loop diagram, with editable source in `assets/bg-diagram.drawio`.
+- `script.js` — mobile navigation toggle; content remains available without JavaScript.
+- `assets/workshop-banner.svg` — light blue vector banner with embedded official conference logos.
 
 ## Published site
 
@@ -25,7 +24,7 @@ The site is published from the `main` branch using GitHub Pages.
 
 ## Proposal status
 
-The website is organized around visitor-facing pages using the public-facing material in `ICRA_2027_Overleaf (2).pdf`. Proposal form labels and internal section references are adapted for the site. Speaker names, affiliations, and topics remain to be confirmed. The publication route, eligibility of short contributions, copyright/license, and camera-ready timetable must be confirmed before the call is issued.
+The website is organized around visitor-facing pages using the public-facing material in `ICRA_2027_Overleaf (2).pdf`. The public pages follow the relevant section types used by CV4DC 2026. Internal proposal sections, references, logistics, related events, organizing experience, and delivery responsibilities are omitted. Retained proposal prose is copied, with citation markers and obsolete internal section links removed. Speaker names, affiliations, and topics remain to be confirmed. The publication route, eligibility of short contributions, copyright/license, and camera-ready timetable must be confirmed before the call is issued.
 
 ## Before publishing the final contribution call
 
@@ -44,9 +43,19 @@ The project uses plain HTML/CSS/JS and requires no package installation, build s
 
 ## Design and accessibility
 
-- Simple conference layout inspired by [CV4DC 2026](https://cv4dc.github.io/2026/): an illustrated SVG banner, light page tabs, and a single white reading column.
-- Single-column reading flow on desktop and phones.
-- A short workshop introduction precedes a row of page tabs; each tab opens its own HTML page, with the current page highlighted.
-- Proposal section numbering is removed from headings; site links connect related material across pages.
-- Skip-to-content link, keyboard-operable navigation, visible focus, semantic headings, and reduced-motion support.
+- Conference layout matched to [CV4DC 2026](https://cv4dc.github.io/2026/): a 4:1 illustrated banner, charcoal navigation immediately below it, centered page titles, and a main column with an information sidebar.
+- The type sizes, line spacing, container widths, and blue links follow the reference's Bootstrap proportions.
+- The home, call, and organizers pages use a two-thirds main column and one-third dates sidebar. Dates and keynotes use the full content width. On phones the columns stack and navigation collapses into a menu.
+- Each navigation tab opens its own HTML page, with the current page highlighted. The banner and ICRA27 link return to the homepage.
+- Navigation uses Call for Papers, Important Dates, Organizers, and Keynotes. Topics appear in the call. No unsupported challenge, sponsor, or news content is added.
+- Skip-to-content link, keyboard-operable navigation, visible focus, semantic headings.
 - No external fonts, trackers, cookies, embeds, or JavaScript requirement for content.
+
+## Official logo sources
+
+The banner embeds the original, unmodified logo files from the [ICRA 2027 brand identity page](https://2027.ieee-icra.org/about/brand-identity-and-guidelines/), scaled with their original proportions on a white background:
+
+- `assets/icra-logo.jpg` — [official ICRA logo](https://2027.ieee-icra.org/wp-content/uploads/sites/4/2026/05/ICRA-LOGO.jpg).
+- `assets/icra2027-seoul.png` — [official Seoul 2027 logo](https://2027.ieee-icra.org/wp-content/uploads/sites/4/2026/06/ICRA2027_TitleMark_wide_PNG.png).
+
+The remaining banner artwork is native SVG. No generated bitmap artwork is used.

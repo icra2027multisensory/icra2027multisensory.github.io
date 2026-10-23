@@ -6,54 +6,64 @@
   <title>Closing the Loop: Task-Driven Multimodal Sensing, Perception, and Manipulation</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
   <header class="site-header container">
-    <div class="header-content">
-      <p class="workshop-label">ICRA 2027 Workshop</p>
-      <p class="site-title"><a href="index.html">Closing the Loop: Task-Driven Multimodal Sensing, Perception, and Manipulation</a></p>
-      <p class="subtitle">Half-day, in person · 08:30–12:30</p>
-    </div>
+    <a href="index.html" aria-label="Workshop home">
+      <img src="assets/workshop-banner.svg" width="1200" height="300" alt="Closing the Loop: Task-Driven Multimodal Sensing, Perception, and Manipulation. ICRA 2027 half-day workshop, with the official ICRA and Seoul 2027 logos." />
+    </a>
   </header>
 
-  <div class="site-intro container">
-    <p>Closing the loop means making perception serve action and action improve perception. Task goals guide multimodal sensing. Perception estimates geometry, contact, dynamics, and uncertainty, while manipulation plans and regulates interaction. Each action changes the scene and generates evidence for the next decision. We connect touch, force, audio, olfaction, vision, and proprioception through their contribution to task-relevant inference and adaptive physical interaction.</p>
-  </div>
-
   <nav class="site-nav container" aria-label="Main navigation">
-    <a href="cfp.html">Call for Contributions</a>
-    <a href="topics.html">Topics</a>
-    <a href="dates.html">Important Dates</a>
-    <a href="program.html">Program</a>
-    <a href="organizers.html">Organizers</a>
+    <a class="nav-brand" href="index.html" aria-current="page">ICRA27</a>
+    <button class="menu-toggle" type="button" aria-controls="page-navigation" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="page-navigation">
+      <a href="cfp.html">Call for Papers</a>
+      <a href="dates.html">Important Dates</a>
+      <a href="organizers.html">Organizers</a>
+      <a href="keynotes.html">Keynotes</a>
+    </div>
   </nav>
 
   <main id="main-content" class="container main-content" tabindex="-1">
     <div class="page-layout">
       <div class="content-column">
-        <section id="relevance" class="section" aria-labelledby="relevance-heading">
-          <h1 id="relevance-heading" class="page-title">About the Workshop</h1>
-          <p>Reusable VLA policies <a href="#ref-1">[1]</a>, dynamic tactile representations <a href="#ref-2">[2]</a>, and on-demand multisensor systems <a href="#ref-3">[3]</a> make joint design timely. The challenge is to connect observations, actionable state estimates, and real-time planning and control under changing contacts and sensor reliability. ICRA unites hardware, perception, learning, and control researchers.</p>
-        </section>
-        <section id="questions" class="section" aria-labelledby="questions-heading">
-          <h2 id="questions-heading">Research Questions and Expected Outcomes</h2>
-          <p>How should tasks shape sensing and data acquisition? What must multimodal representations and world models predict for effective planning? How should manipulation exploit uncertainty, gather evidence, and recover from failure? Discussion will link task success, estimation quality, modality contribution, latency, and recovery to evaluation guidance and research priorities.</p>
-        </section>
-        <section id="references" class="section" aria-labelledby="references-heading">
-          <h2 id="references-heading">References (optional)</h2>
-          <p id="ref-1">[1] M. J. Kim et al. OpenVLA: An Open-Source Vision-Language-Action Model. 2024. arXiv:<a href="https://arxiv.org/abs/2406.09246">2406.09246</a>.</p>
-          <p id="ref-2">[2] R. Feng et al. AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception. ICLR, 2026. arXiv:<a href="https://arxiv.org/abs/2602.09617">2602.09617</a>.</p>
-          <p id="ref-3">[3] X. Liu et al. MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation. 2026. arXiv:<a href="https://arxiv.org/abs/2606.17598">2606.17598</a>.</p>
-        </section>
+        <h1 id="overview-heading" class="page-title">Closing the Loop: Task-Driven Multimodal Sensing, Perception, and Manipulation</h1>
+        <p>Closing the loop means making perception serve action and action improve perception. Task goals guide multimodal sensing. Perception estimates geometry, contact, dynamics, and uncertainty, while manipulation plans and regulates interaction. Each action changes the scene and generates evidence for the next decision. We connect touch, force, audio, olfaction, vision, and proprioception through their contribution to task-relevant inference and adaptive physical interaction.</p>
+        <p>Reusable VLA policies, dynamic tactile representations, and on-demand multisensor systems make joint design timely. The challenge is to connect observations, actionable state estimates, and real-time planning and control under changing contacts and sensor reliability. ICRA unites hardware, perception, learning, and control researchers.</p>
+        <ul class="quick-links">
+          <li><a href="cfp.html">Call for Papers</a></li>
+          <li><a href="dates.html">Important Dates</a></li>
+          <li><a href="organizers.html">Organizers</a></li>
+          <li><a href="keynotes.html">Keynotes</a></li>
+        </ul>
+        <p>Contact: Dr. Jian Liu, National University of Singapore · <a href="mailto:jianliu666.cn@gmail.com">jianliu666.cn@gmail.com</a></p>
       </div>
+      <aside class="sidebar" aria-label="Workshop information">
+        <section class="section" aria-labelledby="sidebar-dates-heading">
+          <h2 id="sidebar-dates-heading">Important Dates</h2>
+          <p><strong>Planned deadlines before the event</strong></p>
+          <table class="dates-table" aria-labelledby="sidebar-dates-heading">
+            <tbody>
+              <tr><th scope="row">Submissions</th><td>8 weeks before the event</td></tr>
+              <tr><th scope="row">Decisions</th><td>5 weeks before the event</td></tr>
+              <tr><th scope="row">Final papers</th><td>3 weeks before the event</td></tr>
+            </tbody>
+          </table>
+          <p><a href="dates.html">View important dates</a></p>
+        </section>
+      </aside>
     </div>
   </main>
 
-  <footer class="site-footer container">
-    <p>ICRA 2027 Workshop</p>
-    <p>Contact: Dr. Jian Liu, National University of Singapore · <a href="mailto:jianliu666.cn@gmail.com">jianliu666.cn@gmail.com</a></p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>ICRA 2027 Workshop</p>
+      <p>Contact: Dr. Jian Liu, National University of Singapore · <a href="mailto:jianliu666.cn@gmail.com">jianliu666.cn@gmail.com</a></p>
+    </div>
   </footer>
 </body>
 </html>
