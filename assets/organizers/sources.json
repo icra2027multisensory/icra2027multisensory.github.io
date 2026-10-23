@@ -204,6 +204,86 @@
     "object_position": "50% 20%"
   },
   {
+    "slug": "tung-ta",
+    "name": "Tung D. Ta",
+    "profile_url": "https://tungtd.com",
+    "source_page": "https://slg.sfc.keio.ac.jp/members/",
+    "image_url": "https://slg.sfc.keio.ac.jp/assets/images/members/TaDucTung.jpeg",
+    "file": "assets/organizers/tung-ta.webp",
+    "retrieved": "2026-10-23",
+    "original_sha256": "04278e704cf72879b989717cf5eb2b1ad5e3de79e70f971e37064c78e6bf7552",
+    "original_dimensions": [
+      1027,
+      1027
+    ],
+    "dimensions": [
+      512,
+      512
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "jiawei-ma",
+    "name": "Jiawei Ma",
+    "profile_url": "https://smile.cs.cityu.edu.hk/",
+    "source_page": "https://smile.cs.cityu.edu.hk/",
+    "image_url": "https://smile.cs.cityu.edu.hk/_next/image?url=%2F_resources%2Fjiawei_ma_new.jpg&w=640&q=75",
+    "file": "assets/organizers/jiawei-ma.webp",
+    "retrieved": "2026-10-23",
+    "original_sha256": "61240d91edf51fb1f116f947150b353f20858bedf0514e555778fef19f2b65ec",
+    "original_dimensions": [
+      640,
+      640
+    ],
+    "dimensions": [
+      512,
+      512
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "khoa-vo",
+    "name": "Khoa Vo",
+    "profile_url": "https://vhvkhoa.github.io/",
+    "source_page": "https://vhvkhoa.github.io/",
+    "image_url": "https://vhvkhoa.github.io/author/khoa-vo/avatar_hu17315110356596214593.jpg",
+    "file": "assets/organizers/khoa-vo.webp",
+    "retrieved": "2026-10-23",
+    "original_sha256": "a450aeef1dd50f7332a8e3b29d1a9f4196ebcbea80f2cba1a1425f4ae2de2bae",
+    "original_dimensions": [
+      1000,
+      1000
+    ],
+    "dimensions": [
+      512,
+      512
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
+    "slug": "baoru-huang",
+    "name": "Baoru Huang",
+    "profile_url": "https://baoru.netlify.app/",
+    "source_page": "https://baoru.netlify.app/",
+    "image_url": "https://baoru.netlify.app/authors/admin/avatar_hu14da40a76f43349920fb6dbb5aae31ff_720536_270x270_fill_q75_lanczos_center.JPG",
+    "file": "assets/organizers/baoru-huang.webp",
+    "retrieved": "2026-10-23",
+    "original_sha256": "cb5c34821ec0267e578df869fae725c2ead0bfd3531796a3954cdfe91e66b08b",
+    "original_dimensions": [
+      270,
+      270
+    ],
+    "dimensions": [
+      270,
+      270
+    ],
+    "processing": "Resized to at most 512 pixels and encoded as WebP; circular display crop is applied in CSS.",
+    "object_position": "50% 20%"
+  },
+  {
     "slug": "hanyi-zhang",
     "name": "Hanyi Zhang",
     "profile_url": "https://www.linkedin.com/in/hanyi-zhang-7104ab299/",

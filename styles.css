@@ -90,7 +90,10 @@ a:hover { color: #0056b3; text-decoration: underline; }
 .organizer-name a { color: inherit; }
 .organizer-name a:hover { color: var(--accent); }
 .organizer-affiliation { margin-bottom: 6px; font-size: 13px; line-height: 1.4; text-align: center; }
-.organizer-email { display: inline-block; max-width: 100%; font-size: 12px; line-height: 1.4; overflow-wrap: anywhere; }
+.advisory-committee { margin-top: 48px; }
+.committee-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 32px; padding: 0; list-style: none; }
+.committee-name { display: block; font-weight: 700; }
+.committee-affiliation { display: block; font-size: 14px; line-height: 1.4; }
 .content-column, .sidebar { min-width: 0; padding-inline: 30px; }
 
 h1, h2, h3 { margin-top: 0; margin-bottom: 8px; font-weight: 500; line-height: 1.2; }
@@ -153,6 +156,7 @@ th { font-weight: 700; }
   .page-layout { grid-template-columns: 1fr; }
   .content-column, .sidebar { padding-inline: 30px; }
   .sidebar { margin-top: 40px; }
+  .committee-list { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 359px) { .organizer-grid { grid-template-columns: 1fr; } }
