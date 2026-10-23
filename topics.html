@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Topics and Scope | ICRA 2027 Workshop Proposal</title>
-  <meta name="description" content="Topic and scope fields for the ICRA 2027 workshop proposal. Details are TBD." />
+  <title>Topics and Scope | Closing the Loop</title>
+  <meta name="description" content="Workshop scope, scientific questions, participation plans, and related events for Closing the Loop at ICRA 2027." />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -13,15 +13,15 @@
 
   <header class="site-header container">
     <div class="header-content">
-      <p class="workshop-label">Half-day Workshop Proposal</p>
-      <p class="site-title">ICRA 2027 Workshop</p>
-      <p class="subtitle">Proposal title: TBD</p>
+      <p class="workshop-label">Proposed ICRA 2027 Half-Day Workshop</p>
+      <p class="site-title">Closing the Loop: Task-Driven Multimodal Sensing, Perception, and Manipulation</p>
+      <p class="subtitle">Task-driven sensing, actionable perception, and adaptive physical interaction.</p>
     </div>
   </header>
 
   <nav class="site-nav container" aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="cfp.html">Call for Papers</a>
+    <a href="cfp.html">Contributions</a>
     <a href="topics.html" aria-current="page">Topics</a>
     <a href="program.html">Program</a>
     <a href="organizers.html">Organizers</a>
@@ -31,62 +31,156 @@
   <main id="main-content" class="container main-content" tabindex="-1">
     <div class="page-layout">
       <div class="content-column">
-        <section id="topics" class="section" aria-labelledby="topics-heading">
-          <h1 id="topics-heading" class="page-title">Topics and Scope</h1>
-          <table aria-labelledby="topics-heading">
-            <tbody>
-              <tr><th scope="row">Workshop topic and scope</th><td>TBD</td></tr>
-              <tr><th scope="row">Relevance to ICRA and why now</th><td>TBD</td></tr>
-              <tr><th scope="row">Scientific questions</th><td>TBD</td></tr>
-              <tr><th scope="row">Expected outcomes</th><td>TBD</td></tr>
-              <tr><th scope="row">Distinction from related workshops</th><td>TBD</td></tr>
-              <tr><th scope="row">Relevant RAS Technical Committees and rationale</th><td>TBD</td></tr>
-            </tbody>
-          </table>
+        <section id="scope" class="section" aria-labelledby="scope-heading">
+          <h1 id="scope-heading" class="page-title">Workshop Scope</h1>
+          <p>
+            Closing the loop means making perception serve action and action improve perception. Task goals guide
+            multimodal sensing. Perception estimates geometry, contact, dynamics, and uncertainty. Manipulation plans
+            and regulates interaction. Each action changes the scene and creates evidence for the next decision.
+          </p>
+          <p>
+            The workshop connects touch, force, audio, olfaction, vision, and proprioception through their contribution
+            to task-relevant inference and adaptive physical interaction.
+          </p>
+          <p>
+            The joint proposal brings a complete task-driven loop together with multisensory representations, transfer,
+            and robustness. It gives sensing, perception, and manipulation equal scientific weight.
+          </p>
         </section>
 
-        <section id="participant-engagement" class="section" aria-labelledby="engagement-heading">
-          <h2 id="engagement-heading">Participant Engagement and Inclusiveness</h2>
-          <table aria-labelledby="engagement-heading">
-            <tbody>
-              <tr><th scope="row">Interaction among attendees, speakers, and organizers</th><td>TBD</td></tr>
-              <tr><th scope="row">Inclusive participation across backgrounds, career stages, regions, academia, and industry</th><td>TBD</td></tr>
-              <tr><th scope="row">Publicity and committee collaboration</th><td>TBD</td></tr>
-            </tbody>
-          </table>
+        <section id="relevance" class="section" aria-labelledby="relevance-heading">
+          <h2 id="relevance-heading">Why This Topic, Why Now</h2>
+          <p>
+            Open vision-language-action policies such as <a href="https://arxiv.org/abs/2406.09246">OpenVLA</a>,
+            dynamic tactile representations such as <a href="https://arxiv.org/abs/2602.09617">AnyTouch 2</a>,
+            and adaptive multisensor systems such as <a href="https://arxiv.org/abs/2606.17598">MuseVLA</a>
+            make joint design timely. A central challenge is connecting observations and actionable state estimates
+            to real-time planning and control as contacts change and sensor reliability varies. ICRA brings together
+            the hardware, perception, learning, and control communities needed for this discussion.
+          </p>
         </section>
 
-        <section id="previous-events" class="section" aria-labelledby="previous-events-heading">
-          <h2 id="previous-events-heading">Previous Events and Dissemination</h2>
-          <table aria-labelledby="previous-events-heading">
-            <tbody>
-              <tr><th scope="row">Previous venues, years, attendance, URLs, and rationale, or statement that this is a new workshop</th><td>TBD</td></tr>
-              <tr><th scope="row">Dissemination of materials and workshop outcomes</th><td>TBD</td></tr>
-              <tr><th scope="row">Other information relevant to proposal review</th><td>TBD</td></tr>
-            </tbody>
-          </table>
+        <section id="questions" class="section" aria-labelledby="questions-heading">
+          <h2 id="questions-heading">Scientific Questions and Outcomes</h2>
+          <ul>
+            <li>How should task goals shape sensing and data acquisition?</li>
+            <li>What must multimodal representations and world models predict for effective planning?</li>
+            <li>How should manipulation use uncertainty, gather evidence, and recover from failure?</li>
+          </ul>
+          <p>
+            The discussion will connect task success, estimation quality, modality contribution, latency, and recovery
+            to practical evaluation guidance and research priorities.
+          </p>
         </section>
 
-        <p><a href="cfp.html">Call for Papers &rarr;</a></p>
+        <section id="committees" class="section" aria-labelledby="committees-heading">
+          <h2 id="committees-heading">Relevant RAS Technical Committees</h2>
+          <ul>
+            <li><strong>Robotic Hands, Grasping and Manipulation</strong> for physical interaction.</li>
+            <li><strong>Robot Learning</strong> for learned representations and policies.</li>
+            <li><strong>Robot Control</strong> for feedback and recovery.</li>
+          </ul>
+        </section>
+
+        <section id="participation" class="section" aria-labelledby="participation-heading">
+          <h2 id="participation-heading">Participation and Inclusiveness</h2>
+          <p>
+            The proposed format combines four invited talks, up to five contributed spotlights, an extended poster and
+            demonstration session, and a moderated panel. Talk questions will connect sensing and acquisition, state
+            estimation, multimodal representations, and feedback control. Session chairs will link discussion across
+            talks. Attendees may ask questions in person or submit them in writing before or during the event.
+          </p>
+          <p>
+            The call will welcome single-modality and component-level work alongside integrated systems. Early-stage,
+            negative-result, reusable-tool, and modest-resource work will be assessed on the support for its claims.
+            Among comparable submissions, early-career authors will receive spotlight priority and facilitated
+            introductions to senior academic and industry participants.
+          </p>
+          <p>
+            Recruitment through international networks will seek diversity across regions, genders, career stages, and
+            academic and industry perspectives. Industry failure cases will inform discussion, and the invited-speaker
+            list will be assessed against these goals. Presentation guidance will encourage readable slides, defined
+            terminology, and verbal descriptions of visual content. Written questions, seated discussion, and
+            accommodation requests coordinated with ICRA support will provide additional ways to participate.
+          </p>
+        </section>
+
+        <section id="publicity" class="section" aria-labelledby="publicity-heading">
+          <h2 id="publicity-heading">Publicity and Community Collaboration</h2>
+          <p>
+            Following acceptance, the website will announce speakers, the contribution call, review criteria,
+            publication arrangements, and an accessibility contact. Publicity is planned through institutional
+            networks and robotics, learning, perception, and sensor mailing lists, with targeted outreach to
+            <a href="https://sites.google.com/view/roboacoustics/home">RoboAcoustics</a> and the
+            <a href="https://www.olfactionsociety.org/">International Society for Olfaction and Chemical Sensing (ISOCS)</a>.
+          </p>
+          <p>
+            Organizers intend to approach the RAS Technical Committees on Robotic Hands, Grasping and Manipulation,
+            Robot Learning, and Robot Control for call circulation, contributor suggestions, and feedback on the
+            evaluation questions. Committee endorsement is not assumed.
+          </p>
+        </section>
+
+        <section id="related-events" class="section" aria-labelledby="related-heading">
+          <h2 id="related-heading">Related Events</h2>
+          <p>This is a new joint workshop, with no previous editions or attendance figures.</p>
+          <ul>
+            <li>
+              <a href="https://active-perception-workshop.github.io/">Act to Sense to Act Better</a> (ICRA 2026,
+              Vienna) addressed multimodal active perception, information-aware action selection, and uncertainty-aware
+              control. This workshop connects those themes to multimodal representations, actionable state estimation,
+              and manipulation and recovery.
+            </li>
+            <li>
+              <a href="https://shanluo.github.io/ViTacWorkshops/vitac2026">7th ViTac Workshop</a> (ICRA 2026, Vienna)
+              connected visual-tactile hardware, simulation, foundation models, and manipulation. This workshop
+              includes additional modalities such as audio and material cues, and links representations to planning,
+              feedback, and recovery.
+            </li>
+            <li>
+              <a href="https://activis-workshop.github.io/">ActiVis</a> (CVPR 2026, Denver) covered perception-action
+              co-design and closed-loop evaluation. This proposal emphasizes heterogeneous physical signals, state
+              estimation, and adaptive manipulation. These are complementary emphases; the comparison does not imply
+              that earlier events excluded these topics.
+            </li>
+          </ul>
+        </section>
+
+        <section id="outcomes" class="section" aria-labelledby="outcomes-heading">
+          <h2 id="outcomes-heading">Materials and Workshop Outcomes</h2>
+          <p>
+            Organizers plan archival proceedings for accepted original papers. The publication route, eligibility of
+            short contributions, copyright and license terms, and camera-ready schedule must be confirmed before the
+            call. Publisher approval and optional indexing are separate; IEEE Xplore inclusion is not assumed.
+          </p>
+          <p>
+            Within four weeks of the event, Trong Thang Pham plans to publish a checked report after circulating a
+            draft to contributors. Organizers will collect session and panel notes, along with presenter-approved
+            materials. The report will organize accepted work and links to shareable datasets, code, sensor designs,
+            and evaluation tools. It will summarize evaluation guidance on task conditions, sensor availability,
+            estimation quality, task performance, latency, and recovery. It will distill open questions and research
+            priorities from talks, contributed work, and audience questions, recording agreement and disagreement
+            without presenting them as community-wide consensus. It will identify opportunities for shared resources
+            and future collaboration. These outputs do not depend on recording or streaming.
+          </p>
+        </section>
       </div>
 
-      <aside class="sidebar" aria-label="Workshop information">
-        <section id="dates" class="section" aria-labelledby="dates-heading">
-          <h2 id="dates-heading">Important Dates</h2>
-          <table class="dates-table" aria-labelledby="dates-heading">
-            <tbody>
-              <tr><th scope="row">Workshop acceptance notification</th><td><time datetime="2027-01-31">January 31, 2027</time></td></tr>
-              <tr><th scope="row">ICRA workshop dates</th><td>May 24 or 28, 2027</td></tr>
-            </tbody>
-          </table>
-          <p><a href="dates.html">All important dates &rarr;</a></p>
+      <aside class="sidebar" aria-label="Workshop links">
+        <section class="section" aria-labelledby="contributions-heading">
+          <h2 id="contributions-heading">Contributions</h2>
+          <p><a href="cfp.html">Formats, review, and publication plan &rarr;</a></p>
+        </section>
+        <section class="section" aria-labelledby="program-heading">
+          <h2 id="program-heading">Program</h2>
+          <p><a href="program.html">Proposed schedule and format &rarr;</a></p>
         </section>
       </aside>
     </div>
   </main>
 
   <footer class="site-footer container">
-    <p>ICRA 2027 Workshop Proposal</p>
+    <p>Closing the Loop · Proposed ICRA 2027 Half-Day Workshop</p>
   </footer>
 </body>
 </html>
