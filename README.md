@@ -10,7 +10,7 @@ An accessible, responsive, dependency-free website for the proposed ICRA 2027 ha
 - `organizers.html` — organizer portraits, public profile links, affiliations, and contact details.
 - `keynotes.html` — speaker information, pending confirmation in the proposal.
 - `topics.html` and `program.html` — redirects for previously shared URLs.
-- `styles.css` — responsive design.
+- `styles.css` — editable source for the responsive design. Pages load a versioned copy from `assets/` to prevent stale cached styles.
 - `script.js` — mobile navigation toggle; content remains available without JavaScript.
 - `assets/workshop-banner.svg` — light blue vector banner with embedded official conference logos.
 
@@ -65,3 +65,7 @@ The remaining banner artwork is native SVG. No generated bitmap artwork is used.
 `assets/organizers/` contains 12 public profile photographs, displayed with circular CSS crops like CV4DC. Each portrait and name links to the person's public profile. Names, affiliations, and email addresses retain the proposal roster.
 
 `assets/organizers/sources.json` records every source page, image URL, identity-verification page where needed, retrieval date, source hash, and display crop. Sources include personal and institutional profiles, Google Scholar portraits linked by those profiles, CV4DC's organizer page, and Hanyi Zhang's public LinkedIn post supplied by the user. Photos are resized and encoded as WebP for page loading; no photos are generated or retouched.
+
+## Publishing style changes
+
+After editing `styles.css`, run `python3 scripts/version_styles.py` and commit the generated CSS file and updated HTML links. The filename includes a content hash, so browsers fetch the matching stylesheet when the page changes. Earlier versions remain available for cached pages.
