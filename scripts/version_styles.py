@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Publish the CSS under a content-based filename and update page links."""
-from hashlib import sha256
+"""Publish the CSS under a timestamped filename and update page links."""
+from datetime import datetime, timezone
 from pathlib import Path
 import re
 
 root = Path(__file__).resolve().parents[1]
 css = (root / 'styles.css').read_bytes()
-filename = f'assets/styles.{sha256(css).hexdigest()[:12]}.css'
+filename = f'assets/styles.{datetime.now(timezone.utc):%Y%m%d%H%M%S%f}.css'
 (root / filename).write_bytes(css)
 pattern = re.compile(r'href="(?:styles\.css(?:\?[^"\s]*)?|assets/styles\.[0-9a-f]+\.css)"')
 updated = 0

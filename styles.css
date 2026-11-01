@@ -90,7 +90,10 @@ a:hover { color: #0056b3; text-decoration: underline; }
 .organizer-name a { color: inherit; }
 .organizer-name a:hover { color: var(--accent); }
 .organizer-affiliation { margin-bottom: 6px; font-size: 13px; line-height: 1.4; text-align: center; }
-.advisory-committee { margin-top: 48px; }
+.organizer-section { margin-top: 48px; }
+.organizer-section > h2 { margin-bottom: 32px; text-align: center; }
+.organizer-section .organizer-grid { margin-top: 32px; }
+.organizer-grid.student-organizers { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 360px; margin-inline: auto; }
 .committee-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 32px; padding: 0; list-style: none; }
 .committee-name { display: block; font-weight: 700; }
 .committee-affiliation { display: block; font-size: 14px; line-height: 1.4; }

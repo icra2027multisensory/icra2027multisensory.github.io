@@ -7,7 +7,7 @@ An accessible, responsive, dependency-free website for the proposed ICRA 2027 ha
 - `index.html` — workshop introduction.
 - `cfp.html` — topics of interest, submission guidelines, and important dates.
 - `dates.html` — planned submission timeline.
-- `organizers.html` — organizer portraits, public profile links, affiliations, the program committee, and the key contact.
+- `organizers.html` — staff and faculty organizers, student organizers, the advisory board, public profile links, affiliations, and the key contact.
 - `keynotes.html` — speaker information, pending confirmation in the proposal.
 - `topics.html` and `program.html` — redirects for previously shared URLs.
 - `styles.css` — editable source for the responsive design. Pages load a versioned copy from `assets/` to prevent stale cached styles.
@@ -62,12 +62,12 @@ The remaining banner artwork is native SVG. No generated bitmap artwork is used.
 
 ## Organizer photographs
 
-`assets/organizers/` contains 16 public profile photographs, displayed with circular CSS crops like CV4DC. Each portrait and name links to the person's public profile. Tung D. Ta, Jiawei Ma, Khoa Vo, and Baoru Huang are included as organizers at the team's request. The remaining seven members of the original team appear under Program Committee. Only Jian Liu's key contact email is published on the current pages.
+The organizer page follows the proposal's three groups: Staff & Faculty Organizers (14), Student Organizers (2), and Advisory Board (7). Hanyi Zhang and Trong Thang Pham are the student organizers. The seven advisors belong to the Advisory Board in Section 2.1.3 of the proposal. Only Jian Liu's key contact email is published on the current pages.
 
-Names and affiliations follow the proposal except for Khoa Vo at the University of Tennessee–Oak Ridge Innovation Institute (UT–ORII) and Tung D. Ta at Keio University, Japan. Both current affiliations are confirmed by the user and their institutional profiles ([Khoa](https://utorii.com/khoa-vo/), [Tung](https://slg.sfc.keio.ac.jp/members/)).
+Names and affiliations follow the proposal as directed by the user. Tung D. Ta is listed at The University of Tokyo, Japan, and Khoa Vo at University of Arkansas, Fayetteville, USA. `assets/organizers/` contains 16 public profile photographs, displayed with circular CSS crops like CV4DC. Each portrait and name links to the person's public profile.
 
 `assets/organizers/sources.json` records every source page, image URL, identity-verification page where needed, retrieval date, source hash, and display crop. Sources include personal and institutional profiles, Google Scholar portraits linked by those profiles, CV4DC's organizer page, and Hanyi Zhang's public LinkedIn post supplied by the user. Photos are resized and encoded as WebP for page loading; no photos are generated or retouched.
 
 ## Publishing style changes
 
-After editing `styles.css`, run `python3 scripts/version_styles.py` and commit the generated CSS file and updated HTML links. The filename includes a content hash, so browsers fetch the matching stylesheet when the page changes. Earlier versions remain available for cached pages.
+After editing `styles.css`, run `python3 scripts/version_styles.py` and commit the generated CSS file and updated HTML links. The filename includes a UTC timestamp, so browsers fetch the matching stylesheet when the page changes. Earlier versions remain available for cached pages. Existing photograph provenance fields are preserved without rechecking them.
